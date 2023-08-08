@@ -17,3 +17,26 @@ ul {
 a {
     text-decoration: none;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(250, 219, 172);
+    
+}
+aside{
+    padding:2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(237, 248, 217);
+    position:sticky ;
+    top:0 ;
+    height: 100vh ;
+}
+.footerderechos{
+    font-size: .80rem;
+}
+img.imagen-articulo{
+    size: 25px;
+}
